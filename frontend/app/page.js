@@ -9,7 +9,7 @@ export default function InterviewRoom() {
   // Uses localhost for Codespaces testing, or the live URL in production
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL 
     ? process.env.NEXT_PUBLIC_BACKEND_URL.replace("https://", "wss://")
-    : "wss://sturdy-goldfish-wr5q44jx5vp93gggq-8000.app.github.dev";
+    : "wss://ai-interview-backend-ah19.onrender.com";
 
   useEffect(() => {
     // Establish WebSocket connection
